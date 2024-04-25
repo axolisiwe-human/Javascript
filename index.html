@@ -1,105 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="home-style.css" rel="stylesheet"  type="text/css"/> 
-    <script src="./index.js"></script>
-    <title>Contact Us</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href="home-style.css" rel="stylesheet"  type="text/css"/> 
+    </head>
+    <body>
+        <!--Navbar starts here-->
+        <header>
+
+            <img id="logo"  src= "images/myLogo.png" alt="Me"/>
+           
+           <ul id="navbar-texts">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+           </ul>
+            
+        </header>
+        <!--Navbar ends here-->
+        <!--Add the video from here-->
+        <div id="my-video">
+            <video controls muted> 
+                <source src="images\animation.mp4" type="video/mp4">
+                The video couldn'y play. Your browser doesn't support HTML5 videos.
+            </video>
+        </div>
+ <!--video ends here-->
+
+ <h2>Human Bakishi</h2>
+<!--my bio Starts Here-->
+<div class = "container">
+   
+    <p>
+        I’m a Web Developer with no work experience. However, I’ve been 
+        spending most of my time on figma designing any kind of website
+        I can think of and practice coding it from scratch using HTML and CSS.<br><br>
+
     
-    <style>
+        Mostly I’m an individual worker but I’ve never encounter a problem
+        working with a team.</p>
+  <!--my bio ends Here-->
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container-contact-us {
-            width: 80%;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        form {
-            margin-top: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #333;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-
-        textarea {
-            height: 100px;
-        }
-
-        input[type="submit"] {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-
-    </style>
-</head>
-<body>
-     <!--Navbar starts here-->
-     <header>
-
-        <img id="logo"  src= "images/myLogo.png" alt="Me"/>
-       
-       <ul id="navbar-texts">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_me.html">About Me</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-       </ul>
-        
-    </header>
-    <!--Navbar ends here-->
-    <div class="container-contact-us">
-        <h2>Contact Us</h2>
-        <form action="#" method="post">
-            <label for="fullname">Name and Surname:</label>
-            <input type="text" id="fullname" name="fullname" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <input type="submit" value="Submit">
-        </form>
+  <!--my image starts Here-->
+        <img id="home-image" src="images/mypic_edited - Copy.jpg" alt="My Picture"/>
     </div>
+  <!--my image ends Here-->
 
-     <!--Footer here-->
+
+  <!--Footer here-->
   <footer>
     <div class="footer-content">
         <div class="address">
@@ -133,6 +83,6 @@
   </footer>
 
    <!--Footer ends here-->
-   
-</body>
+ 
+    </body>
 </html>
