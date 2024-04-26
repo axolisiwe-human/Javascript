@@ -9,6 +9,6 @@ let phoneNo = '+27 63 5299 240';
 
 console.log(name, surname, bio, email, studies, age);
 
-let myProjects = [''];
+let myProjects = ['Intro to HTML', 'Intro to CSS', 'Intro to Javascript'];
 console.log({ myProjects });
-console.log(myProjects.length );
+console.log("Number of projects: " + myProjects.length );
